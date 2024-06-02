@@ -255,11 +255,11 @@ nav ul li a:hover::after {
 }
 
 .contact-right iframe{
-    height: 450px;
-    width: 920px;
+    height: 50vh;
+    width: 100%;
     border-radius: 20px;
-    flex-basis: 60%;
 }
+
 .contact-left p {
     margin-top: 30px;
 }
