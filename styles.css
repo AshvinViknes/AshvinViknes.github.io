@@ -382,13 +382,6 @@ form .btn{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-
-    .contact-right iframe{
-        height: 350px;
-        width: 300px;
-        border-radius: 20px;
-        flex-basis: 60%;
-    }
     
     .copyright{
         font-size: 14px;
