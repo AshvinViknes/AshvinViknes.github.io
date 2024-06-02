@@ -254,6 +254,12 @@ nav ul li a:hover::after {
     flex-basis: 60%;
 }
 
+.contact-right iframe{
+    height: 450px;
+    width: 920px;
+    border-radius: 20px;
+    flex-basis: 60%;
+}
 .contact-left p {
     margin-top: 30px;
 }
@@ -377,6 +383,13 @@ form .btn{
         flex-basis: 100%;
     }
 
+    .contact-right iframe{
+        height: 350px;
+        width: 300px;
+        border-radius: 20px;
+        flex-basis: 60%;
+    }
+    
     .copyright{
         font-size: 14px;
     }
