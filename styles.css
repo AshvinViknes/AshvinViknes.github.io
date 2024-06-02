@@ -251,7 +251,7 @@ nav ul li a:hover::after {
 }
 
 .contact-right {
-    flex-basis: 60%;
+    flex-basis: 65%;
 }
 
 .contact-right iframe{
