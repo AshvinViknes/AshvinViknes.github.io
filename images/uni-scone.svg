@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="ui-monospace,Menlo,monospace"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#18191b"/><stop offset="1" stop-color="#232528"/></linearGradient><pattern id="d" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#eff0f1" opacity=".07"/></pattern></defs><rect width="640" height="240" fill="url(#bg)"/><rect width="640" height="240" fill="url(#d)"/><rect x="50" y="86" width="150" height="64" rx="12" fill="#2a2c30" stroke="#eff0f1" stroke-width="2.5"/>
+<text x="72" y="114" fill="#eff0f1" font-size="17">operator</text><text x="72" y="136" fill="#9c9ea3" font-size="13">go controller</text>
+<path d="M200 118H262" stroke="#3b8eff" stroke-width="3"/><path d="M256 111l9 7-9 7" fill="none" stroke="#3b8eff" stroke-width="3"/>
+<path d="M320 72l42 24v48l-42 24-42-24V96z" fill="#2a2c30" stroke="#3b8eff" stroke-width="2.5"/><text x="300" y="124" fill="#eff0f1" font-size="16">helm</text>
+<path d="M362 118H424" stroke="#3b8eff" stroke-width="3"/><path d="M418 111l9 7-9 7" fill="none" stroke="#3b8eff" stroke-width="3"/>
+<g fill="#2a2c30" stroke="#6b6d72" stroke-width="2"><rect x="440" y="62" width="150" height="34" rx="8"/><rect x="440" y="102" width="150" height="34" rx="8"/><rect x="440" y="142" width="150" height="34" rx="8"/></g>
+<g font-size="13" fill="#9c9ea3"><text x="456" y="84">cas</text><text x="456" y="124">las</text><text x="456" y="164">registry secret</text></g>
+<g fill="#3b8eff"><circle cx="574" cy="79" r="5"/><circle cx="574" cy="119" r="5"/><circle cx="574" cy="159" r="5"/></g>
+<path d="M515 186 C 515 220, 125 220, 125 156" fill="none" stroke="#6b6d72" stroke-width="2" stroke-dasharray="6 6"/><path d="M118 164l7-10 7 10" fill="none" stroke="#6b6d72" stroke-width="2"/>
+<text x="250" y="230" fill="#9c9ea3" font-size="13">saga · per-step rollback</text></svg>
