@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-monospace,Menlo,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18191b"/><stop offset=".6" stop-color="#1f2124"/><stop offset="1" stop-color="#2a2c30"/>
+    </linearGradient>
+    <linearGradient id="nd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b8eff" stop-opacity=".28"/><stop offset="1" stop-color="#3b8eff" stop-opacity=".10"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- org hierarchy -->
+  <text x="80" y="72" fill="#8cbcff" font-size="19">roles: your own hierarchy</text>
+  <rect x="150" y="96" width="170" height="52" rx="11" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="176" y="129" fill="#fff" font-size="18">org admin</text>
+  <rect x="62"  y="200" width="160" height="52" rx="11" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="88" y="233" fill="#fff" font-size="18">business</text>
+  <rect x="250" y="200" width="160" height="52" rx="11" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="276" y="233" fill="#fff" font-size="18">team</text>
+  <rect x="150" y="304" width="170" height="52" rx="11" fill="rgba(56,198,255,.16)" stroke="#3b8eff" stroke-width="3"/>
+  <text x="176" y="337" fill="#fff" font-size="18">customer</text>
+  <g stroke="#6b6d72" stroke-width="2.5" fill="none">
+    <path d="M235 148 V174 H142 V200"/><path d="M235 148 V174 H330 V200"/>
+    <path d="M142 252 V278 H235 V304"/><path d="M330 252 V278 H235 V304"/>
+  </g>
+  <!-- contract document -->
+  <rect x="470" y="70" width="250" height="310" rx="14" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="498" y="116" fill="#fff" font-size="20">CONTRACT</text>
+  <g stroke="#9c9ea3" stroke-width="3" opacity=".7">
+    <path d="M498 150 H692"/><path d="M498 180 H692"/><path d="M498 210 H660"/><path d="M498 240 H692"/><path d="M498 270 H620"/>
+  </g>
+  <path d="M498 330 C520 300 540 345 560 318 C575 300 585 330 605 316" fill="none" stroke="#3b8eff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M498 348 H692" stroke="#6b6d72" stroke-width="2.5"/>
+  <circle cx="668" cy="118" r="26" fill="none" stroke="#3b8eff" stroke-width="3"/>
+  <path d="M656 118 L665 128 L682 106" fill="none" stroke="#3b8eff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="440" y="422" fill="#8cbcff" font-size="16">acknowledged · invoiced · scanned</text>
+</svg>

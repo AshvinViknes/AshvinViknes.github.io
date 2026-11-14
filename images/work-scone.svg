@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-monospace,Menlo,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18191b"/><stop offset=".6" stop-color="#1f2124"/><stop offset="1" stop-color="#2a2c30"/>
+    </linearGradient>
+    <linearGradient id="nd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b8eff" stop-opacity=".28"/><stop offset="1" stop-color="#3b8eff" stop-opacity=".10"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g fill="#3b8eff" opacity=".12">
+    <circle cx="60" cy="60" r="2"/><circle cx="740" cy="390" r="2"/><circle cx="700" cy="80" r="2"/><circle cx="110" cy="380" r="2"/>
+  </g>
+  <rect x="70" y="60" width="660" height="330" rx="18" fill="none" stroke="#4a4c51" stroke-width="2.5" stroke-dasharray="10 9"/>
+  <text x="100" y="105" fill="#8cbcff" font-size="20">kind: SconePlatform</text>
+  <rect x="110" y="140" width="240" height="84" rx="14" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="138" y="178" fill="#fff" font-size="22">operator</text>
+  <text x="138" y="206" fill="#9c9ea3" font-size="16">saga + rollbacks</text>
+  <rect x="450" y="140" width="240" height="84" rx="14" fill="url(#nd)" stroke="#eff0f1" stroke-width="2.5"/>
+  <text x="478" y="178" fill="#fff" font-size="22">helm charts</text>
+  <text x="478" y="206" fill="#9c9ea3" font-size="16">resolved + pinned</text>
+  <rect x="280" y="282" width="240" height="84" rx="14" fill="rgba(56,198,255,.16)" stroke="#3b8eff" stroke-width="3"/>
+  <text x="306" y="320" fill="#fff" font-size="22">scone platform</text>
+  <text x="306" y="348" fill="#9c9ea3" font-size="16">installed · upgraded</text>
+  <path d="M350 182 H450" stroke="#6b6d72" stroke-width="2.5"/>
+  <path d="M230 224 V322 H280" stroke="#6b6d72" stroke-width="2.5" fill="none"/>
+  <path d="M570 224 V322 H520" stroke="#6b6d72" stroke-width="2.5" fill="none"/>
+  <circle cx="350" cy="182" r="6" fill="#3b8eff"/><circle cx="230" cy="224" r="6" fill="#3b8eff"/><circle cx="570" cy="224" r="6" fill="#3b8eff"/>
+</svg>

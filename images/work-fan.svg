@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-monospace,Menlo,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18191b"/><stop offset=".6" stop-color="#1f2124"/><stop offset="1" stop-color="#2a2c30"/>
+    </linearGradient>
+    <linearGradient id="nd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b8eff" stop-opacity=".24"/><stop offset="1" stop-color="#3b8eff" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- fan -->
+  <circle cx="230" cy="216" r="130" fill="url(#nd)" stroke="#3b8eff" stroke-width="4"/>
+  <g fill="#9c9ea3" opacity=".9">
+    <path d="M230 216 C 230 130 180 110 160 128 C 136 150 180 206 230 216 Z"/>
+    <path d="M230 216 C 304 172 322 122 296 110 C 268 98 236 160 230 216 Z" transform="rotate(100 230 216)"/>
+    <path d="M230 216 C 230 130 180 110 160 128 C 136 150 180 206 230 216 Z" transform="rotate(220 230 216)"/>
+  </g>
+  <circle cx="230" cy="216" r="24" fill="#eff0f1"/>
+  <text x="130" y="398" fill="#8cbcff" font-size="19">rpm follows temperature</text>
+  <!-- thermometer -->
+  <rect x="448" y="80" width="26" height="220" rx="13" fill="rgba(11,18,32,.5)" stroke="#eff0f1" stroke-width="3"/>
+  <rect x="454" y="170" width="14" height="126" rx="7" fill="#ff8a65"/>
+  <circle cx="461" cy="316" r="26" fill="#ff8a65" stroke="#eff0f1" stroke-width="3"/>
+  <g stroke="#9c9ea3" stroke-width="2"><path d="M480 110 h14"/><path d="M480 160 h14"/><path d="M480 210 h14"/><path d="M480 260 h14"/></g>
+  <!-- response curve -->
+  <rect x="540" y="96" width="200" height="180" rx="12" fill="rgba(11,18,32,.5)" stroke="#4a4c51" stroke-width="2.5"/>
+  <path d="M560 250 C 610 250 620 140 720 122" fill="none" stroke="#3b8eff" stroke-width="4" stroke-linecap="round"/>
+  <text x="560" y="304" fill="#9c9ea3" font-size="15">temp →</text>
+  <text x="560" y="128" fill="#9c9ea3" font-size="15">speed</text>
+  <text x="540" y="372" fill="#fff" font-size="20">auto · no manual dial</text>
+</svg>

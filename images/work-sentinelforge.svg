@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-monospace,Menlo,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18191b"/><stop offset=".6" stop-color="#1f2124"/><stop offset="1" stop-color="#2a2c30"/>
+    </linearGradient>
+    <linearGradient id="nd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b8eff" stop-opacity=".28"/><stop offset="1" stop-color="#3b8eff" stop-opacity=".10"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- shield -->
+  <path d="M190 96 L298 128 V236 C298 310 246 352 190 374 C134 352 82 310 82 236 V128 Z"
+        fill="url(#nd)" stroke="#3b8eff" stroke-width="4"/>
+  <path d="M148 232 L180 266 L240 186" fill="none" stroke="#eff0f1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="422" fill="#8cbcff" font-size="19">$ sentinelforge campaign run</text>
+  <!-- pipeline -->
+  <g stroke="#eff0f1" stroke-width="2.5">
+    <rect x="370" y="84"  width="350" height="58" rx="12" fill="url(#nd)"/>
+    <rect x="370" y="166" width="350" height="58" rx="12" fill="url(#nd)"/>
+    <rect x="370" y="248" width="350" height="58" rx="12" fill="url(#nd)"/>
+    <rect x="370" y="330" width="350" height="58" rx="12" fill="rgba(56,198,255,.16)" stroke="#3b8eff" stroke-width="3"/>
+  </g>
+  <text x="394" y="121" fill="#fff" font-size="20">plan</text><text x="560" y="121" fill="#9c9ea3" font-size="16">deterministic</text>
+  <text x="394" y="203" fill="#fff" font-size="20">observe</text><text x="560" y="203" fill="#9c9ea3" font-size="16">bounded</text>
+  <text x="394" y="285" fill="#fff" font-size="20">evidence</text><text x="560" y="285" fill="#9c9ea3" font-size="16">audited</text>
+  <text x="394" y="367" fill="#fff" font-size="20">report</text><text x="560" y="367" fill="#9c9ea3" font-size="16">json · html</text>
+  <g stroke="#6b6d72" stroke-width="2.5"><path d="M545 142 V166"/><path d="M545 224 V248"/><path d="M545 306 V330"/></g>
+  <g fill="#3b8eff"><circle cx="545" cy="154" r="5"/><circle cx="545" cy="236" r="5"/><circle cx="545" cy="318" r="5"/></g>
+</svg>
