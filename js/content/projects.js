@@ -47,9 +47,9 @@ CONTENT.projects = {
     },
     {
       image:    "images/work-contract.svg",
-      imageAlt: "Contract Automation: organization role hierarchy feeding a signed contract",
+      imageAlt: "Covenza: organization role hierarchy feeding a signed contract",
       tag:      "Go · Next.js · PostgreSQL",
-      title:    "Contract Automation",
+      title:    "Covenza",
       desc:     "A multi-tenant contract-lifecycle platform where each organization shapes its own role hierarchy. The Go API has a permission-based RBAC engine and JWT refresh rotation. A durable Postgres-backed job queue is woken by commit notifications, Redis holds cluster-wide state, and ClamAV scans every upload. The front end is Next.js 15, all behind nginx on Docker Compose.",
       link:     null,
       note:     "Private repo · walkthrough on request",
